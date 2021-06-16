@@ -28,37 +28,26 @@
 
 - **start with Docker**
 
-  - django
+  ```
+  $ docker-compose up -d --buld
+  ```
 
-  - nginx
+- TTS server
 
-    ```
-    $ docker-compose up -d --buld
-    ```
-
-  - TTS server
-
-    ```
-    $ cd AI/
-    $ docker run -it -p 5002:5002 synesthesiam/mozillatts:en
-    ```
-
+  ```
+  $ cd AI/
+  $ docker run -it -p 5002:5002 synesthesiam/mozillatts:en
+  ```
+  
 - **in Local**
 
-  ```
-  $ cd Backend/
+  ```sh
   $ pip install -r requirements.txt
+  $ python manage.py runserver
   ```
 
-- **설치시 오류발생**
+  
 
-  - ./Backend/requirements.txt 파일내 uwsgi 를 주석처리한 후 다시 실행해주세요.
-
-- **설치완료 후 ntlk 오류 발생**
-
-  - ntlk.download() 를 진행해주세요.
-
-    
 
 **Frontend**
 
@@ -142,11 +131,11 @@
 
 ⭐ **Common** : <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitLab-FCA121?style=flat-square&logo=GitLab&logoColor=black"/><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=black"/> <img src="https://img.shields.io/badge/NGINX-269539?style=flat-square&logo=NGINX&logoColor=black"/><img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/><img src="https://img.shields.io/badge/JSON Web Tokens-000000?style=flat-square&logo=JSON Web Tokens&logoColor=white"/>
 
-![image-20210407223533848](README.assets/image-20210407223533848.png)
+![dinory_architect](README.assets/dinory_architect.png)
 
 🚀 **ERD**
 
-<img src="README.assets/finalERD.png" alt="특화프로젝트ERD" style="zoom:60%;" />
+![dinory_erd](README.assets/dinory_erd.png)
 
 
 
@@ -158,7 +147,7 @@
 | **신민호** | 팀원 |               Frontend(앱 개발), 회의록관리                |
 | **유진우** | 팀원 |           Frontend(앱 개발), Git master, Design            |
 | **윤지해** | 팀원 |              Frontend(앱 개발), QA, JIRA 관리              |
-| **장수민** | 팀원 |                    Backend(DB), AWS관리                    |
+| **장수민** | 팀원 |                    Backend(DB), DevOps                     |
 | **전의수** | 팀원 | Backend (AI), Frontend(앱 소개 페이지), 테크리더, UCC 제작 |
 
 
