@@ -131,11 +131,15 @@
 
 ⭐ **Common** : <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitLab-FCA121?style=flat-square&logo=GitLab&logoColor=black"/><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=black"/> <img src="https://img.shields.io/badge/NGINX-269539?style=flat-square&logo=NGINX&logoColor=black"/><img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/><img src="https://img.shields.io/badge/JSON Web Tokens-000000?style=flat-square&logo=JSON Web Tokens&logoColor=white"/>
 
+
+
+🏛 **ARCHITECT**
+
 ![dinory_architect](README.assets/dinory_architect.png)
 
 🚀 **ERD**
 
-![dinory_erd](README.assets/dinory_erd.png)
+![ssaffy2_pjt2](README.assets/ssaffy2_pjt2.png)
 
 
 
